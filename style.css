@@ -26,10 +26,11 @@ a {
   overflow-x: auto;
   margin: 0 auto;
   max-width: 100%;
-  padding: 20px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 8px;
 }
 
-/* Table Styles */
 .table {
   width: 100%;
   border-collapse: collapse;
@@ -40,15 +41,15 @@ a {
 th, td {
   padding: 15px;
   text-align: center;
-  word-wrap: break-word; /* Prevents overflow and wraps content within the cell */
+  word-wrap: break-word;
 }
 
 th {
   font-weight: bold;
 }
 
-/* Styling for icons or specific content */
 td {
+  border: 1px solid #f5eeee;
   font-size: 12px;
 }
 
